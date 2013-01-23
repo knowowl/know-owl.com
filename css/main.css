@@ -1,0 +1,465 @@
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+   body{
+ background:#d9d9d9 url("../img/bedge_grunge.png");
+}
+nav a{
+ float:right;
+ color:#777;
+ text-align: center;
+ font-weight: 300;
+ font-family: 'Open Sans', sans-serif;
+ padding: 30px 0;
+ margin: 0;
+ font-size:1.5em;
+ line-height: normal;
+ width: 100%;
+  background: transparent !important;
+}
+nav a{
+  transition: background-color 0.3s ease;
+  -webkit-transition: background-color 0.3s ease;
+  -moz-transition: background-color 0.3s ease;
+  -o-transition: background-color 0.3s ease;
+}
+nav .active1{background: #366ca9 !important; color:white;}
+nav .btn1:hover{   
+    background: #366ca9 !important;
+}
+nav .btn2:hover{   
+    background: #8d2e95 !important;
+}
+nav .btn3:hover{   
+    background: #719824 !important;
+}
+nav .btn4:hover{   
+    background: #aaa !important;
+}
+nav li:hover a{   
+  color:white;
+}
+
+nav li{
+  padding: 0 1px 0 0 !important ;
+  float:left;
+  border-left:1px solid #eee;
+  text-align: center;
+margin: 0px !important;
+}
+nav li:last-child{
+  border-right:1px solid #eee;
+  
+}
+
+/* ==========================================================================
+   Header styles
+   ========================================================================== */
+.header{
+	margin:0;padding: 0;
+}
+.isologo{    
+    height:75px;
+    margin:5px 0;
+    background:transparent url("../img/isologo_knowowl2.png") no-repeat left ; 
+}
+.container{
+  margin:0px auto;
+}
+nav li{
+
+
+}
+nav ul{
+margin:0 !important;
+}
+nav{
+
+float:left;
+background: white;
+
+opacity: 0.8;
+  position:relative;
+  margin:0;
+}
+h1>span{
+  font-size: 0.5em;
+  color:#999;
+   font-family: 'Open Sans', sans-serif;
+   font-weight: 200;
+}
+.bgpic{
+  float:left;  
+  
+  display:block;
+  position:relative;
+  z-index: -1;
+  top:-150px !important;
+
+    width: 100%;
+ margin:0 0 -145px 0;
+  padding:0;
+}
+.bgpic>.slider{
+  position:relative;
+  width: 100%;
+}
+.bgpic>.slider>.item{
+  position:relative;
+  background:black url("../img/homepage4.jpg") top center no-repeat; 
+  width: 100%;
+  height: 340px;
+
+  float: left;
+}
+.hero-unit{
+  background:black url("../img/hero-bg.png") top left no-repeat; 
+  float:left;
+  position:relative;
+  top:-100px;
+  padding-top:5px; 
+  margin-bottom:0px;
+  box-shadow: 0px 2px 5px #666;
+
+}
+.hero-unit h1{
+  font-family: 'Open Sans', sans-serif;
+}
+footer ul, footer li{
+  list-style: none;
+  padding: 0;margin: 0;
+}
+footer{
+ 
+  
+ 
+  margin:25px 0 0 0 !important;
+
+}
+.contact{
+ 
+ 
+ list-style: none;
+ float:left;
+ text-align: right;
+ border-top:1px solid #ccc;   
+  border-bottom:1px solid #ccc;   
+ position:relative;
+ margin-top: 20px;
+ padding:10px 0 15px 0;
+
+}
+.contact a{
+ font-size: 0.8em;
+ 
+ border-left:1px solid #ccc; 
+ padding: 5px 5px;
+
+}
+.legal img{
+   margin: -5px 20px 0 0!important;
+
+
+}
+.legal{
+   
+ 
+   font-family: 'Open Sans', sans-serif;
+   color:#888;
+   text-align: center;
+  padding: 30px 0;
+ 
+ list-style: none;
+  float:left;   
+ position:relative;
+line-height: 1em; 
+ font-size: 0.9em;
+
+}
+footer a{
+  text-decoration: none;
+  color:#658796;
+}
+footer h3{
+  line-height: 1em;
+   font-size: 1.3em;
+   padding:0;
+   color:#ccc;
+   margin:0 0 5px 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+
+.container{
+
+}
+.lab, .service, .product{
+ background: url("../img/gplaypattern.png");
+  margin-top:20px ;
+  border-radius: 8px;
+  max-height: 305px;
+
+}
+.lab{
+
+   
+}
+.labImg{
+height: 150px;
+width: 100%;
+border-top-left-radius: 8px;
+border-top-right-radius: 8px;
+float:left;
+
+   background:transparent url("../img/lab2.png") center top no-repeat;
+}
+.labImg em{
+height: 150px;
+width: 74px;
+float:right;
+margin-top:36px;
+
+ background:transparent url("../img/labLabel.png") center bottom no-repeat;
+}
+
+.service h2, 
+.lab h2, 
+.product h2{
+  float: left;
+  width: 100%;
+    padding: 0px 0px 5px  10px;
+   font-family: 'Open Sans', sans-serif;
+   font-weight: 200;
+   color:#888;
+ 
+
+  
+}
+.titleLayouts{
+  float:left;
+  color:#444;
+  text-align: center; 
+   padding: 15px 0px ;
+   margin:0 0;
+    font-size: 2.2em;
+    font-weight: normal;
+   font-family: 'Philosopher', sans-serif;
+}
+.parrafo{
+ 
+  color:#666;
+  text-align: center; 
+  margin-top: 10px;
+  margin-bottom: 10px;
+
+    font-size: 1.2em;
+   font-family: 'Open Sans', sans-serif;
+}
+.titleLayouts2{
+  float:left;
+  color:#555;
+  text-align: center;
+  border-top:1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+   padding: 15px 0px ;
+   margin:10px 0;
+    font-size: 1.8em;
+   font-family: 'Open Sans', sans-serif;
+}
+.service p,
+.lab p,
+.product p{
+  padding: 5px 10px 40px 10px;
+  color:#777;
+
+  
+}
+.serviceImg{
+height: 150px;
+width: 100%;
+border-top-left-radius: 8px;
+border-top-right-radius: 8px;
+float:left;
+
+   background:transparent url("../img/service2.png") center top no-repeat;
+}
+.linkProducts:hover .serviceImg {
+ background:transparent url("../img/service.jpg") center top no-repeat;
+
+}
+.linkProducts:hover .labImg {
+ background:transparent url("../img/lab.jpg") center top no-repeat;
+
+}
+ .linkProducts:hover .productImg {
+ background:transparent url("../img/product.jpg") center top no-repeat;
+
+}
+.serviceImg em{
+height: 150px;
+width: 74px;
+float:right;
+margin-top:36px;
+
+ background:transparent url("../img/serviceLabel.png") center bottom no-repeat;
+}
+
+.product, .service, .lab{
+box-shadow: 0 0 5px #999;
+
+}
+.linkProducts{
+  cursor: pointer;
+  cursor: hand;
+  float:left;
+}
+
+.linkProducts:hover .service, .linkProducts:hover .product,.linkProducts:hover .lab {
+box-shadow: 0px 0px 15px #777;
+
+}
+
+
+
+.productImg{
+height: 150px;
+width: 100%;
+border-top-left-radius: 8px;
+border-top-right-radius: 8px;
+float:left;
+
+   background:transparent url("../img/product2.png") center top no-repeat;
+}
+.productImg em{
+height: 150px;
+width: 74px;
+float:right;
+margin-top:36px;
+
+ background:transparent url("../img/productLabel.png") center bottom no-repeat;
+}
+.services-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.services-list>li h3{
+font-size: 3em;
+text-align: left; 
+}
+.services-list>li:nth-child(2n) {
+ background: white;
+}
+.services-list>li:nth-child(1) {
+ padding: 100px 0;
+background:transparent url("../img/branding.jpg") no-repeat right bottom ; 
+}
+.services-list>li:nth-child(2) {
+  padding: 100px 0;
+background:white url("../img/buho.jpg") no-repeat 12% 0 ; 
+}
+.services-list>li:nth-child(3) {
+   padding: 100px 0;
+background:transparent url("../img/consulting.jpg") no-repeat right bottom ; 
+}
+.services-list>li:nth-child(4) {
+   padding: 100px 0;
+background:white url("../img/app.jpg") no-repeat  ; 
+}
+.services-list>li:nth-child(5) {
+   padding: 100px 0;
+background:transparent url("../img/ux.jpg") no-repeat right bottom ; 
+}
+.services-list>li:nth-child(6) {
+  padding: 100px 0;
+background:white url("../img/marketing.jpg") no-repeat  ; 
+}
+.parrafo>ul>li{
+  padding-top: 10px;
+   font-size: 1em !important;
+   list-style-type: square;
+}
+.link_home{
+  float:left;
+  width: 100%;
+  height: 100%;
+}
+.services-list .parrafo{
+margin: 40px 0 80px 0;
+font-weight: normal;
+line-height: 1.5em;
+text-align: left; 
+}
+
+
+@media screen and (max-width: 1200px) {
+ .isologo{    
+    height:52px;
+    margin:5px 0;
+    background:transparent url("../img/isologo_knowowl3.png") no-repeat left ; 
+}
+nav a{
+ float:right;
+ color:#777;
+ text-align: center;
+ font-weight: 300;
+ font-family: 'Open Sans', sans-serif;
+ padding: 21px 0;
+ margin: 0;
+ font-size:1.2em;
+ line-height: normal;
+ width: 100%;
+  background: transparent !important;
+}
+}
+@media screen and (max-width: 870px) {
+ .isologo{    
+    height:52px;
+    margin:5px 0;
+    background:transparent url("../img/isologo_knowowl4.png") no-repeat left ; 
+}
+nav a{
+ float:right;
+ color:#777;
+ text-align: center;
+ font-weight: 300;
+ font-family: 'Open Sans', sans-serif;
+ padding: 21px 0;
+ margin: 0;
+ font-size:1.2em;
+ line-height: normal;
+ width: 100%;
+  background: transparent !important;
+}
+}
+@media screen and (max-width: 767px) {
+  nav{
+    opacity: 1;
+  }
+  .linkProducts{
+    width: 100%;
+  }
+  .services-list>li{
+background-image:none !important;
+padding: 5% !important;
+}
+  .isologo{    
+    height:52px;
+    margin:5px 0;
+    width: 100%;
+    background:transparent url("../img/isologo_knowowl3.png") no-repeat center ; 
+}
+ .product, .service, .lab{
+min-width: 100% !important;
+
+}
+}
+@media screen and (max-width: 500px) {
+  .bgpic{
+   display:none;
+  }
+
+}
