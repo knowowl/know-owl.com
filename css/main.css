@@ -19,6 +19,7 @@ nav a{
  width: 100%;
   background: transparent !important;
 }
+
 nav a{
   transition: background-color 0.3s ease;
   -webkit-transition: background-color 0.3s ease;
@@ -26,6 +27,7 @@ nav a{
   -o-transition: background-color 0.3s ease;
 }
 nav .active1{background: #366ca9 !important; color:white;}
+nav .active2{background: #aaa !important; color:white;}
 nav .btn1:hover{   
     background: #366ca9 !important;
 }
@@ -432,7 +434,7 @@ nav a{
  font-size:1.2em;
  line-height: normal;
  width: 100%;
-  background: transparent !important;
+ background: transparent !important;
 }
 }
 @media screen and (max-width: 767px) {
@@ -461,5 +463,12 @@ min-width: 100% !important;
   .bgpic{
    display:none;
   }
+
+}
+.emailContact{
+font-size: 1.5em !important;
+margin-top: -20px;
+color: #0099bb;
+
 
 }
